@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JobPortal - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">JobPortal</a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav id="nav-links" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html" class="nav-signup">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Find your dream job or internship</h1>
+        <p>Search jobs, apply easily and track your applications.</p>
+        <input id="search" class="search-box" type="text" placeholder="Search jobs, e.g. React" aria-label="Search jobs">
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Featured Jobs</h2>
+      <div id="job-list" class="grid"></div>
+      <p id="no-jobs" class="hidden">No jobs found. Try another search.</p>
+    </section>
+
+    <section class="container section">
+      <h2>Categories</h2>
+      <div class="categories">
+        <span class="badge big">Development</span>
+        <span class="badge big">Design</span>
+        <span class="badge big">Data</span>
+        <span class="badge big">Marketing</span>
+        <span class="badge big">Sales</span>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to start?</h2>
+      <a href="signup.html" class="btn">Create an account</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 JobPortal. Internship project.</p>
+  </footer>
+
+  <script src="js/navbar.js"></script>
+  <script src="js/jobs.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
