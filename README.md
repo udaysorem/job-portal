@@ -24,8 +24,3 @@ Here is how the project files are organized:
 *   **CSS3** (Flexbox & Grid) for styling and making it mobile-friendly
 *   **JavaScript (ES6)** for interactive elements, searching, and form validation
 
-## 💡 What I Learned During This Project
-*   **Working with Git:** I learned how to track changes, handle branches, and push code to GitHub. I even learned how to debug repository configuration file errors manually when my local Git commands got stuck!
-*   **DOM Manipulation:** I practiced using JavaScript to dynamically generate HTML elements (like the job cards) based on what the user types in the search bar.
-*   **Folder Organization:** I learned how important it is to break code into separate modular CSS and JS files instead of putting everything into one massive file.
-*
