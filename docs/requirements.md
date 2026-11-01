@@ -130,14 +130,5 @@ Later weeks: search/filter/sort/pagination, dashboards, job forms, modals, table
 ## 8. Assumptions and Open Questions
 - Authentication is mocked in Week 1 (no real backend).
 - Job data comes from local JSON files through a `services/` layer.
-- Ask the mentor: Is Admin required? Should the project use TypeScript? Is there a preferred UI or design reference?
-
 ---
 
-## 9. Day 1 Checklist
-- [ ] Roles defined
-- [ ] Navigation per role defined
-- [ ] User journeys written
-- [ ] Screen list and routes listed
-- [ ] Acceptance criteria written
-- [ ] Questions noted for the mentor
