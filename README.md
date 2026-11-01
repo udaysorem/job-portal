@@ -1,5 +1,8 @@
 # Frontend Job Portal Project
 
+## Live Demo
+https://udaysorem.github.io/job-portal/
+
 This is my frontend internship project—a responsive Job Portal web application. I built this using HTML, CSS, and Vanilla JavaScript to practice building clean user interfaces, dynamic search filters, and form validations.
 
 ## 🛠️ Project Structure
