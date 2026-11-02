@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Seekers</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">JobPortal</a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav id="nav-links" class="nav-links"></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container section">
+      <h1>Job Seekers (<span id="count">0</span>)</h1>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>Name</th><th>Email</th><th>Action</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 JobPortal. Internship project.</p>
+  </footer>
+
+  <script src="js/auth.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/seekers.js"></script>
+</body>
+</html>
