@@ -24,7 +24,7 @@ js/signin.js, signup.js, forgot.js   form validation
 
 ## Deployment
 Upload the whole folder to Netlify or GitHub Pages. No build step is needed.
-
+LIVEDEMO LINK: https://udaysorem.github.io/job-portal/
 ## Roles and Admin (added)
 | Role | What they can do |
 |---|---|
