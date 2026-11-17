@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">JobPortal</a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav id="nav-links" class="nav-links"></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container section">
+      <h1>Admin Dashboard</h1>
+      <p class="gray">Today: <span id="today"></span></p>
+      <div class="stats">
+        <div class="card stat"><h3 id="total">0</h3><p>Job Seekers</p></div>
+        <div class="card stat"><h3 id="present">0</h3><p>Present Today</p></div>
+        <div class="card stat"><h3 id="absent">0</h3><p>Absent Today</p></div>
+        <div class="card stat"><h3 id="not-marked">0</h3><p>Not Marked Today</p></div>
+      </div>
+      <h2>Quick links</h2>
+      <div class="grid">
+        <a class="card" href="attendance.html"><h3>Mark Attendance</h3><p class="gray">Choose a date and mark each job seeker present or absent.</p></a>
+        <a class="card" href="attendance-report.html"><h3>Attendance Report</h3><p class="gray">See present days, absent days and percentage for everyone.</p></a>
+        <a class="card" href="seekers.html"><h3>Job Seekers</h3><p class="gray">View all job seekers and remove an account.</p></a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 JobPortal. Internship project.</p>
+  </footer>
+
+  <script src="js/auth.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

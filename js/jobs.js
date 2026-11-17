@@ -1,0 +1,27 @@
+// Starter (mock) job data. service.js copies it into localStorage the first time.
+var seedJobs = [
+  { id: 1, title: "Frontend Intern", company: "TechNova", location: "Remote", type: "Internship", salary: "10,000/month", date: "2026-11-01", postedBy: "recruiter@example.com",
+    description: "Build web pages with HTML, CSS and JavaScript in a friendly team. You will learn React and Git while working on real features.",
+    requirements: ["Basic HTML, CSS and JavaScript", "Willing to learn React", "Good communication"] },
+  { id: 2, title: "React Developer", company: "CodeCraft", location: "Hyderabad", type: "Full-time", salary: "6 LPA", date: "2026-11-02", postedBy: "recruiter@example.com",
+    description: "Develop and maintain user interfaces for our web products using React, working closely with designers and backend developers.",
+    requirements: ["1+ year of React", "Knowledge of Git", "Understanding of responsive design"] },
+  { id: 3, title: "UI/UX Design Intern", company: "PixelWorks", location: "Bangalore", type: "Internship", salary: "8,000/month", date: "2026-11-03", postedBy: "recruiter@example.com",
+    description: "Create wireframes and mockups in Figma and help improve how our apps look and feel for real users.",
+    requirements: ["Basic Figma skills", "Eye for layout and color", "Portfolio or sample designs"] },
+  { id: 4, title: "Data Analyst", company: "DataHub", location: "Chennai", type: "Full-time", salary: "5 LPA", date: "2026-11-04", postedBy: "hr@example.com",
+    description: "Clean data, build reports and find useful patterns that help the business make decisions.",
+    requirements: ["Excel and SQL basics", "Python is a plus", "Attention to detail"] },
+  { id: 5, title: "Web Developer", company: "BrightSites", location: "Remote", type: "Part-time", salary: "15,000/month", date: "2026-11-05", postedBy: "recruiter@example.com",
+    description: "Build and update small business websites a few hours a day. Flexible timing and remote work.",
+    requirements: ["HTML, CSS, JavaScript", "Can work 4 hours a day", "Own laptop"] },
+  { id: 6, title: "Python Intern", company: "ByteLabs", location: "Pune", type: "Internship", salary: "7,000/month", date: "2026-11-06", postedBy: "hr@example.com",
+    description: "Write small Python scripts and tools, and help the team test and fix bugs.",
+    requirements: ["Basic Python", "Logical thinking", "Eager to learn"] },
+  { id: 7, title: "Backend Developer", company: "CloudNest", location: "Hyderabad", type: "Full-time", salary: "8 LPA", date: "2026-11-07", postedBy: "recruiter@example.com",
+    description: "Design and build APIs and databases that power our apps, and keep them fast and reliable.",
+    requirements: ["Node.js or Java", "SQL databases", "REST API knowledge"] },
+  { id: 8, title: "QA Tester Intern", company: "TestRight", location: "Remote", type: "Internship", salary: "6,000/month", date: "2026-11-08", postedBy: "hr@example.com",
+    description: "Test websites and apps, find bugs and write clear bug reports for the developers.",
+    requirements: ["Careful and patient", "Basic computer knowledge", "Good English writing"] }
+];
